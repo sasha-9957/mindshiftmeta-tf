@@ -43,7 +43,6 @@ variable "common_tags" {
 
   default = {
     "Environment" = "dev"
-    "Provisioner" = "terraform"
     "Product"     = "web-landing"
   }
 }

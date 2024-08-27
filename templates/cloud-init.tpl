@@ -4,7 +4,6 @@ write_files:
   - content: |
       <VirtualHost *:80>
         ServerName landingdev.mindshiftmeta.net
-        ServerAlias www.landingdev.mindshiftmeta.net
         DocumentRoot /var/www/html
 
         ErrorLog /var/log/httpd/error_log
